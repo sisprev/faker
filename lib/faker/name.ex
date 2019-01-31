@@ -89,21 +89,4 @@ defmodule Faker.Name do
   """
   @spec suffix() :: String.t()
   localize(:suffix)
-
-  @doc """
-  Returns a random name related prefix
-
-  ## Examples
-
-      iex> Faker.Name.prefix()
-      "Mr."
-      iex> Faker.Name.prefix()
-      "Mrs."
-      iex> Faker.Name.prefix()
-      "Mr."
-      iex> Faker.Name.prefix()
-      "Dr."
-  """
-  @spec prefix() :: String.t()
-  localize(:prefix)
 end
